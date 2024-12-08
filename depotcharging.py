@@ -522,6 +522,4 @@ def data_aggregate(directory = 'key',wattage = 0, fleet_sizes = [-1], charge_str
     agg_data.to_csv(agg_data_fp, index = False)
     return agg_data
 data_aggregate()
-#generate_load_profiles(fleet='fleet1-beverage-delivery', n_samples = 50, to_plot = True, to_file = False, fleet_size = 10, charge_strat='delayed')
-#data_aggregate(directory = './', charge_strats = ['immediate', 'delayed', 'immediate'], data_type = 'average', res = '15min',
                #num_samples = 20)
