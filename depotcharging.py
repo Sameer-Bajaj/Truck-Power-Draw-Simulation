@@ -29,7 +29,7 @@ def generate_load_profiles(fleet,
                            to_plot = True,
                            ylim=None,
                            print_daily_energy_var=True,
-                           agg_15min=True, data_type = 'all', directory = 'C:\\Users\\samee\\PycharmProjects\\EVtruck charging'):
+                           agg_15min=True, data_type = 'all'):
 
     """
     Generates n_samples fleet load profiles for fleet ('fleet1-beverage-
